@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/tort_dars/uy_ishi/SecondPage.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/tort_dars/uy_ishi/model.dart';
 
+// first
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
