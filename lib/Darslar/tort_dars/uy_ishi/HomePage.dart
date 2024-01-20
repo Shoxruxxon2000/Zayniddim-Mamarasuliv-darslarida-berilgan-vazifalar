@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
               icon: Icon(Icons.search),
             ),
           ],
-          bottom: TabBar(
+          bottom: const TabBar(
             labelColor: Colors.white,
             tabs: [
               Tab(
@@ -122,7 +122,7 @@ class HomePage extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           DrawerHeader(
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: Colors.blue,
             ),
             child: Column(
@@ -131,12 +131,12 @@ class HomePage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       "Daryo",
                       style: TextStyle(fontSize: 30, color: Colors.white),
                     ),
                     Container(
-                      decoration: BoxDecoration(
+                      decoration: const BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(24),
@@ -152,7 +152,7 @@ class HomePage extends StatelessWidget {
                             child: Padding(
                               padding: const EdgeInsets.all(1.0),
                               child: Container(
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.only(
                                     bottomLeft: Radius.circular(24),
@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                                   ),
                                 ),
                                 padding: EdgeInsets.all(5),
-                                child: Text("Lotincha",
+                                child: const Text("Lotincha",
                                     style: TextStyle(fontSize: 20)),
                               ),
                             ),
@@ -171,15 +171,15 @@ class HomePage extends StatelessWidget {
                               padding: const EdgeInsets.all(1.0),
                               child: Container(
                                 //color: Colors.blue,
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                   color: Colors.blue,
                                   borderRadius: BorderRadius.only(
                                     bottomRight: Radius.circular(24),
                                     topRight: Radius.circular(24),
                                   ),
                                 ),
-                                padding: EdgeInsets.all(5),
-                                child: Text("Kirilcha",
+                                padding: const EdgeInsets.all(5),
+                                child: const Text("Kirilcha",
                                     style: TextStyle(
                                         fontSize: 20, color: Colors.white)),
                               ),
@@ -190,13 +190,13 @@ class HomePage extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(
+               const SizedBox(
                   height: 15,
                 ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
+                   const Text(
                       "Toshkent",
                       style: TextStyle(fontSize: 18, color: Colors.white),
                     ),
@@ -204,12 +204,12 @@ class HomePage extends StatelessWidget {
                       children: [
                         IconButton(
                           onPressed: () {},
-                          icon: Icon(
+                          icon: const Icon(
                             Icons.cloud_outlined,
                             color: Colors.white,
                           ),
                         ),
-                        Text(
+                        const Text(
                           "+12.0",
                           style: TextStyle(fontSize: 18, color: Colors.white),
                         ),
@@ -234,7 +234,7 @@ class HomePage extends StatelessWidget {
             child: ListTile(
               hoverColor: Colors.yellowAccent,
               onTap: () {},
-              title: Text("Qo'llamma ekranini ko'rish"),
+              title: const Text("Qo'llamma ekranini ko'rish"),
             ),
           ),
           Container(
@@ -242,7 +242,7 @@ class HomePage extends StatelessWidget {
             child: ListTile(
               hoverColor: Colors.yellowAccent,
               onTap: () {},
-              title: Text("So'ngi yangiliklar", style: TextStyle(
+              title: const Text("So'ngi yangiliklar", style: TextStyle(
                 color: Colors.blue
               ),),
             ),
@@ -250,7 +250,7 @@ class HomePage extends StatelessWidget {
           Container(
             child: ListTile(
               onTap: () {},
-              title: Text("Mahalliy",),
+              title: const Text("Mahalliy",),
             ),
           ),
           Container(
@@ -262,11 +262,11 @@ class HomePage extends StatelessWidget {
           Container(
             child: ListTile(
               onTap: () {},
-              title: Text("Texnalogiya",),
+              title: const Text("Texnalogiya",),
             ),
           ),
           Card(
-            shape: Border(top: BorderSide.none, right: BorderSide.none, bottom: BorderSide.none, left: BorderSide.none),
+            shape: const Border(top: BorderSide.none, right: BorderSide.none, bottom: BorderSide.none, left: BorderSide.none),
             child: Container(
               child: ListTile(
                 onTap: () {},
