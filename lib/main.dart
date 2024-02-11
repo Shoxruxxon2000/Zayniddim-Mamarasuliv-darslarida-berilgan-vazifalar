@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/besh_dars/dars_ishi/tabbar.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/bir_dars/dars_ishi/kirish.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/bir_dars/uy_ishi/avto_elon.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/ikki_dars/uy_ishi/phone_number.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/tort_dars/dars_ishi/android_vs_ios.dart';
 import 'package:flutter_darslari_zayniddin_mamarasulov/Darslar/uch_dars/uy_ishi/results.dart';
+import 'Darslar/besh_dars/dars_ishi/second_page.dart';
 import 'Darslar/ikki_dars/dars_ishi/widgets.dart';
 import 'Darslar/tort_dars/uy_ishi/HomePage.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: TabBarPage(),
     );
   }
 }

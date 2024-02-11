@@ -10,13 +10,13 @@ class SecondPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text(xabar.type, style: TextStyle(fontWeight: FontWeight.bold),),
+        title: Text(xabar.type, style: const TextStyle(fontWeight: FontWeight.bold),),
       ),
       body: ListView(
         children: [
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(xabar.title ,style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
+            child: Text(xabar.title ,style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -25,7 +25,7 @@ class SecondPage extends StatelessWidget {
 
           Padding(
             padding: const EdgeInsets.all(8.0),
-            child: Text(xabar.description ,style: TextStyle(fontSize: 20),),
+            child: Text(xabar.description ,style: const TextStyle(fontSize: 20),),
           ),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -33,7 +33,7 @@ class SecondPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(xabar.date),
-                Text("${xabar.see}"),
+                Text(xabar.see),
               ],
             ),
           ),
